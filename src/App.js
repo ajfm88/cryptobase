@@ -1,7 +1,7 @@
-import React from 'react';
-
+import React, { useEffect, useState } from 'react';
+import { ThemeProvider } from './context/ThemeContext';
 function App() {
-  return <div>hey</div>;
+  return <ThemeProvider></ThemeProvider>;
 }
 
 export default App;
