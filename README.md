@@ -1,21 +1,12 @@
-# Cryptobase - A Crypto tracking App
+# Cryptobase - A Cryptocurrency price tracking app
 
-App to see and compare cryptocurrency prices. Account creation and login for personal token uses enabled. Dark mode available.
+## Live Demo:
 
-## Live Version of this Project:
+- [Cryptobase](https://cryptobase-ajfm88.netlify.app)
 
-[Cryptobase](https://cryptobase-ajfm88.netlify.app)
+## Features:
 
-## Usage
-
-### Install Dependencies
-
-```
-yarn
-```
-
-### Run
-
-```
-yarn run
-```
+- Uses Google Firebase for database and storage 🔥
+- Styled with Tailwind CSS 🎨
+- Fetches most up-to-date market data from the CoinGecko API 📈📉
+- Option to create an account and save coins to your watchlist 👀
