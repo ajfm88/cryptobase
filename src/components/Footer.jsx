@@ -1,12 +1,6 @@
 import React from 'react';
 import { AiOutlineInstagram } from 'react-icons/ai';
-import {
-  FaFacebookF,
-  FaGit,
-  FaGithub,
-  FaTiktok,
-  FaTwitter,
-} from 'react-icons/fa';
+import { FaFacebookF, FaGithub, FaTiktok, FaTwitter } from 'react-icons/fa';
 import ThemeToggle from './ThemeToggle';
 
 const Footer = () => {
@@ -65,7 +59,9 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <p className='text-center py-4'>Powered by Coin Gecko</p>
+      <p className='text-center py-4'>
+        Powered by Coin Gecko {new Date().getFullYear()} 🪙.
+      </p>
     </div>
   );
 };
